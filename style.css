@@ -48,4 +48,5 @@ li {
 .hover-name {
   font-style: italic;
   font-size: 12px;
+  max-width: 110px;
 }
