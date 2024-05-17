@@ -42,7 +42,8 @@ li {
 
 .hover-name:hover + .picture {
   visibility: visible;
-  display: inline;
+  display: block;
+  float: right;
 }
   
 .hover-name {
