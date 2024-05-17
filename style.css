@@ -17,7 +17,7 @@ body {
 .summary {
   font-style: italic;
 }
-
+  
 h4, h5, h6 {
   margin-top: 10px;
   margin-bottom: 0;
@@ -27,12 +27,12 @@ h6 {
   font-style: italic;
 }
 
-li {
-  font-size: 15px;
-}
-
 a:visited {
   color: purple;
+}
+  
+li {
+  font-size: 15px;
 }
 
 .picture {
