@@ -35,11 +35,17 @@ a:visited {
   color: purple;
 }
 
-.hide {
+.picture {
+  visibility: hidden;
   display: none;
 }
 
-.myDIV:hover + .hide {
-  display: block;
-  color: red;
+.hover-name:hover + .picture {
+  visibility: visible;
+  display: inline;
+}
+  
+.hover-name {
+  font-style: italic;
+  font-size: 12px;
 }
